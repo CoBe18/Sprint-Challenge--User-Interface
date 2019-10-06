@@ -32,7 +32,8 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? It is a way to identify and give meaning to the tags of your HTML.  You must identify each section of your site so that 
+screen readers are able to navigate the web page. It is also for the purpose of SEO and ranking.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 

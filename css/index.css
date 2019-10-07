@@ -117,7 +117,7 @@ p {
 	justify-content: space-around;
 	flex: column;
 	margin-bottom: auto;
-	padding-bottom: 50;
+	padding-bottom: 40;
     width: 100%;
     padding: 0 2%;
     /*padding-bottom: 20px;*/
@@ -166,6 +166,8 @@ a {
 	font-weight: 800;	
 }
 
+
+
 .whyBoxes {
 	font-family: Poppins;
 	font-size: 18px;
@@ -195,7 +197,7 @@ a {
 
 
 /* Top Paragraphs */
-#2container {
+/*#2container {
 	display: flex;
 	flex-direction: row;
 	align-items: start;
@@ -204,9 +206,9 @@ a {
 	
 	
 	
-}
+}*/
 
-/*.text-container1 {
+.text-container1 {
 	width: 45%;
 	float: left;
 	height: auto;
@@ -217,7 +219,7 @@ a {
 	width: 45%;
 	float: right;
 	height:auto;
-}*/
+}
 
 /* middle content */
 

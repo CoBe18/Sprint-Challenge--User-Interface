@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* Global Settings*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width:100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+#container {
+  margin-top: 0px;	
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+/*End Global Settings*/
+
+
+
+
+/* Begin Top Navigation and Navigation Container */
+
+
+
+
+.img {
+  display: flex;
+  border: 2px solid #200416;	
+}
+
+
+.top-nav {
+	wdith: 100%;
+	padding: 10px;
+}
+
+
+
+  
+#top-navigation nav {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  /*background-color: #9B1B30;*/
+  justify-content: space-evenly;
+  height: 53px;
+}
+#top-navigation div nav {
+}
+	
+#top-navigation nav a {
+	display: flex;
+	justify-content: center;
+	flex-wrap: no-wrap;
+	align-content: flex-end;
+    width: 0 100%;
+    padding: 0 2%;
+	color: #672e6b;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 24px;
+	font-family: Poppins;	
+	margin-top:19px;
+}
+
+a {
+	text-align: center;
+	text-decoration-color: #200416;
+}
+
+
+/* mouse over link */
+a:hover {
+ color: #fa7930;
+}
+
+
+/* End Navigation */
+
+
+/*jumbo image*/
+
+
+
+
+/* End Jumbo image */
+/* End Navigation Container */
+
+
+
+/* about paragraph */
+
+.about{
+	color: #672e6b;
+    font-family: Poppins;
+	font-size: 18px;
+	font-weight: 800;	
+}
+
+/*end about paragraph*/
+
+
+/* horizonital rule*/
+
+.hr {
+	color: #672e6b;
+	border-top: solid 2px;	
+}
+
+/* end horizontial rule*/
+
+	
+/* Float two columns side by side */
+/*card1 */
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card1 {
+  padding: 16px;
+  text-align: left;
+  background-color: #ffffff;
+  padding-right: 0px -5px;
+}
+
+/* card 2 */
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card2 {
+  padding: 16px;
+  background-color: #ffffff;
+  padding-right: 0px 5px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+/* Learn More */
+
+
+.button {
+	
+	background-color: #feeffc;
+	width: 88px;
+	align-content: flex-end
+}
+
+
+
+
+
+
+footer {
+  width: 100%;
+  background: #600500;
+  align-content: center;
+}
+footer nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 20px 2%;
+  font-size: 16px;
+}
+footer nav a {
+  color: #f9c584;
+  text-decoration: none;
+  align-content: center;
+}

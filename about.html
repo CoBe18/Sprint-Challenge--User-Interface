@@ -1,73 +1,133 @@
 <!doctype html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
+	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week-1 Sprint Challenge</title>
+	 <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet"/>
+ <link rel="stylesheet" href="css/about.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-  <title>Sprint Challenge - About</title>
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
 
-<body>
-    <div class="container about-page">
-     
-    About
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+   <!--Begin HTML Build-->
+<body id="container" onLoad="MM_preloadImages('img/lambda-pink-copy.png','img/smoke-lambda.png')">
+
+<!--Jumbo Hero Image-->	
+<div id="top-navigation"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Lambda Logo','','img/lambda-pink-copy.png',1)"><img src="img/lambda-black.png" alt="" width="157" height="40" id="Lambda Logo"></a> 
+  <div>
+  <nav><a href="index.html" title="LambdaSchool.com">Home</a> <a href="#about.html" title="LambdaSchool.com" target="_blank">About</a> <a href="#products.html" title="Lambda Products" target="_blank">Products</a> <a href="#blog.html" title="Check Out Our Blog" target="_blank">Blog</a> <a href="#contact_us.html" title="Contact LambdaSchool.com" target="_blank">Contact</a> </nav></div>
+</div>	
+	
+<div class="container"> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Hero Image','','img/smoke-lambda.png',1)"><img src="img/jumbo-about.png" alt="LambdaSchool.com" width="800" height="153" id="Hero Image"></a>
+</div>  
+	
+<!--End Jumbo Image-->
+	
+	
+	
+<div>				
+  <section class="top-content">
+    <div>
+	  <h2 class="about">About</h2>
+      <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+	</div>
+  </section>      
+</div>
+
+<hr class="hr">
+	
+   
+<!--Card Content-->
+	
+<section>
+<div class="row">
+  <div class="column">
+    <div class="card1"><img class="card1" src="img/about-plan.png" width="370" height="236" alt="workplace diversity and empowerment"/><h2 class="card1">Strategy</h2><p class="card1">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+	<p class="button">Learn More</p> 
+	  
+	  </div>
+  </div>
+
+	
+	
+  <div class="column">
+    <div class="card2"><img class="card2" src="img/about-working.png" width="370" height="236" alt="how we work"/>
+      <h2 class="card2">How We Work</h2><p class="card2">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p><p class="button">Learn More</p> 
+    </div>
+  </div>
+</div>
+</section>
+	
+	
+
+<hr>
+
+	
+	
+	
+			<!-- Second row of Cards -->
 
 
-    <img src="img/about-plan.png" alt="strategy">
-    
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+<section>
+<div class="row">
+  <div class="column">
+    <div class="card1"><img src="img/about-office.png" width="370" height="236" alt=""/>
+      <h2 class="card1">Places to Work</h2><p class="card1">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p><p class="button">Learn More</p> </div>
+  </div>
 
-    Learn More
-
-
-
-    <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-
-
-    <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
-
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    Let's Work Together
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
-      <footer>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="#">About</a>
-          <a href="#">Products</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-        </nav>
-      </footer>
-    </div><!-- container -->        
+	
+	
+  <div class="column">
+    <div class="card2"><img src="img/about-meeting.png" width="370" height="236" alt="How We Work"/>
+      <h2 class="card2">Collaboration</h2><p class="card2">Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p><p class="button">Learn More</p> 
+    </div>
+  </div>
+</div>
+</section>
+	
+	<hr>
+	
+<div>
+	<h2>Let's Work Together!</h2>
+	<p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+</div>	
+	
+	
+	
+	<footer>
+            <nav>
+              <a href="#index.html" title="LambdaSchool.com" target="_blank">Home</a>
+              <a href="#about.html" title="LambdaSchool.com" target="_blank">About</a>
+              <a href="#products.html" title="LambdaSchool.com" target="_blank">Products</a>
+              <a href="blog.html" title="Check Out Our Blog!" target="_blank">Blog</a>
+              <a href="#contact.html" title="Contact Us" target="_blank">Contact</a>
+            </nav>
+        </footer>
+      
 </body>
 </html>
